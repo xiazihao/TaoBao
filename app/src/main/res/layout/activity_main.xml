@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.xiazihao.android.taobao.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/navigate"
+        >
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/navigate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#f5f5f5"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <com.xiazihao.android.taobao.view.CombineButton
+            android:id="@+id/navigate_home"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:text="首页"
+            app:selected="true"
+            app:image="@drawable/selector_navigate_home"/>
+
+        <com.xiazihao.android.taobao.view.CombineButton
+            android:id="@+id/navigate_tfaccount"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:text="微淘"
+            app:image="@drawable/selector_navigate_tfaccount"/>
+
+        <com.xiazihao.android.taobao.view.CombineButton
+            android:id="@+id/navigate_discover"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:text="发现"
+            app:image="@drawable/selector_navigate_discover"/>
+
+        <com.xiazihao.android.taobao.view.CombineButton
+            android:id="@+id/navigate_cart"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:text="购物车"
+            app:image="@drawable/selector_navigate_cart"/>
+
+        <com.xiazihao.android.taobao.view.CombineButton
+            android:id="@+id/navigate_account"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:text="我的淘宝"
+            app:image="@drawable/selector_navigate_account"/>
+    </LinearLayout>
+</RelativeLayout>

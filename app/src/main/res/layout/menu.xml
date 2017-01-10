@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:gravity="center"
+              android:orientation="vertical"
+              android:padding="3dp">
+
+    <com.xiazihao.android.taobao.view.CircleImageView
+        android:id="@+id/menu_image_view"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_margin="4dp"
+        android:src="@drawable/art_collection"/>
+
+    <TextView
+        android:id="@+id/menu_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="天猫"
+        android:textColor="@color/font66"
+        android:textSize="13sp"/>
+</LinearLayout>

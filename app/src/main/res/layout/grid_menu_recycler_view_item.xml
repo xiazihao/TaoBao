@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:weightSum="5">
+
+        <com.xiazihao.android.taobao.view.GridMenu
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:image="@drawable/grid_menu_tianmao"
+            app:text="天猫"/>
+
+        <com.xiazihao.android.taobao.view.GridMenu
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:image="@drawable/grid_menu_juhuasuan"
+            app:text="聚划算"/>
+
+        <com.xiazihao.android.taobao.view.GridMenu
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:image="@drawable/grid_menu_tianmaoguoji"
+            app:text="天猫国际"
+            />
+
+        <com.xiazihao.android.taobao.view.GridMenu
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:image="@drawable/grid_menu_waimai"
+            app:text="外卖"/>
+
+        <com.xiazihao.android.taobao.view.GridMenu
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:image="@drawable/grid_menu_tianmaochaoshi"
+            app:text="天猫超市"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <com.xiazihao.android.taobao.view.GridMenu
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:image="@drawable/grid_menu_chongzhizhongxin"
+            app:text="充值中心"/>
+
+        <com.xiazihao.android.taobao.view.GridMenu
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:image="@drawable/grid_menu_feizhulvxing"
+            app:text="飞猪旅行"/>
+
+        <com.xiazihao.android.taobao.view.GridMenu
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:image="@drawable/grid_menu_lingjinbin"
+            app:text="领金币"/>
+
+        <com.xiazihao.android.taobao.view.GridMenu
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:image="@drawable/grid_menu_daojia"
+            app:text="到家"/>
+
+        <com.xiazihao.android.taobao.view.GridMenu
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:image="@drawable/grid_menu_fenlei"
+            app:text="分类"/>
+    </LinearLayout>
+</LinearLayout>

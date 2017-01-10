@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="image" format="reference"/>
+    <attr name="text" format="string"/>
+    <attr name="selected" format="boolean"/>
+    <declare-styleable name="CombineButton">
+        <attr name="text"/>
+        <attr name="image"/>
+        <attr name="selected"/>
+    </declare-styleable>
+    <declare-styleable name="FlyBanner">
+        <attr name="points_visibility" format="boolean"/>
+        <attr name="points_position" format="enum">
+            <enum name="CENTER" value="0"/>
+            <enum name="LEFT" value="1"/>
+            <enum name="RIGHT" value="2"/>
+        </attr>
+        <attr name="points_container_background" format="reference|color"/>
+    </declare-styleable>
+    <declare-styleable name="GridMenu">
+        <attr name="image"/>
+        <attr name="text"/>
+    </declare-styleable>
+</resources>
